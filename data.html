@@ -31,7 +31,7 @@
         li.addEventListener('click', () => {
           $.ajax({
             type: 'POST',
-            url: 'http://localhost:4000/users',
+            url: 'https://socketio-room.onrender.com/users',
             contentType: 'application/json',
             data: JSON.stringify({ email: user.email }),
             success: function (data) {

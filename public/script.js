@@ -16,13 +16,13 @@ function saveUser() {
 
     $.ajax({
         type: 'POST',
-        url: 'http://localhost:4000/',
+        url: 'https://socketio-room.onrender.com/',
         data: JSON.stringify(userData),
         contentType: 'application/json',
         success: function (response) {
             alert(response);
             $('#userForm')[0].reset();
-            window.location.href = "http://localhost:4000/users";
+            window.location.href = "https://socketio-room.onrender.com/users";
         },
         error: function (error) {
             console.error(error);
