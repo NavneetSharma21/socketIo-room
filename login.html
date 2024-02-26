@@ -5,34 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Register form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
    
     <form id="userForm">
         <h3>Register user</h3>
         <label for="firstName">FirstName:</label>
-        <input type="text" id="firstName" placeholder="Enter first name">
+        <input type="text" id="firstName" placeholder="Enter first name" required>
         <label for="lastName">LastName:</label>
-        <input type="text" id="lastName" placeholder="Enter last name">
+        <input type="text" id="lastName" placeholder="Enter last name" required>
         <label for="mobile">Mobile no:</label>
-        <input type="tel" id="mobileNo" placeholder="Enter mobile no">
+        <input type="tel" id="mobileNo" placeholder="Enter mobile no" required>
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter email address">
+        <input type="email" id="email" placeholder="Enter email address" required>
         <label for="street">Street:</label>
-        <input type="text" id="street" placeholder="Enter locality">
+        <input type="text" id="street" placeholder="Enter locality" required>
         <label for="city">City:</label>
-        <input type="text" id="city" placeholder="Enter city">
+        <input type="text" id="city" placeholder="Enter city" required>
         <label for="state">State:</label>
-        <input type="text" id="state" placeholder="Enter State">
+        <input type="text" id="state" placeholder="Enter State" required>
         <label for="country">Country:</label>
-        <input type="text" id="country" placeholder="Enter country">
+        <input type="text" id="country" placeholder="Enter country" required>
         <label for="loginId">Login id:</label>
-        <input type="text" id="loginId" placeholder="Enter 8 character alpha numeric">
+        <input type="text" id="loginId" placeholder="Enter 8 character alpha numeric" required>
         <label for="password">Password:</label>
-        <input type="password" id="password" placeholder="6 char password ">
+        <input type="password" id="password" placeholder="6 char password " required>
         <button type="button" onclick="saveUser()">Save</button>
     </form>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+     
    </body>
 </html>
