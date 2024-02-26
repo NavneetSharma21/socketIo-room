@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 245, 245);
+    background: url('https://img.freepik.com/free-photo/green-paint-brush-textured-background_53876-104801.jpg?w=900&t=st=1708517418~exp=1708518018~hmac=3bc1ba923e2113f5cf20decb1efe9acfab34ff616f255d680935d2e379a0615e');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 380px;
+    padding: 10px 30px;
+    backdrop-filter: blur(5px);
+}
+
+#userForm h3 {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#userForm label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+#userForm input {
+    font-size: 18px;
+    padding: 2px;
+    outline: none;
+    border-radius: 5px;
+    text-indent: 2px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#userForm button {
+    background-color: red;
+    color: azure;
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#userForm button:hover {
+    background-color: blue;
+    color: white;
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 380px;
+}
+
+.data h2 {
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.data ul {
+    list-style: none;
+    padding: 40px;
+}
+
+.data ul li {
+    padding: 4px;
+    font-weight: 500;
+}
+
+#userData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 620px;
+    padding: 10px 30px;
+    backdrop-filter: blur(7px);
+    border-radius: 5px;
+}
+
+#userData h1 {
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#user-list li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 500;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
